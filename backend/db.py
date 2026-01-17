@@ -5,6 +5,8 @@ import os
 load_dotenv()
 
 MONGO_URI = os.getenv("MONGO_URI")  # or Atlas URI
+print("URI =", MONGO_URI)
+
 
 client = AsyncIOMotorClient(MONGO_URI)
 db = client["mom_os"]
