@@ -1,23 +1,26 @@
 import { CircleCheckBig, CircleDashed } from "lucide-react";
 import { motion } from "framer-motion";
+import phase1 from "../src/assets/phase1.png";
+import phase2 from "../src/assets/phase2.png";
+import phase3 from "../src/assets/phase3.png";
 
 const phases = [
   {
     title: "NOW — Companion-first",
-    image: "../src/assets/phase1.png",
+    image: phase1,
     phase: "current",
     desc: "A voice-first AI companion that supports daily life through natural conversations in local languages, memory-based reminders, and a family dashboard that builds trust and visibility.",
   },
   {
     title: "NEXT — Connected health & safety",
     phase: "upcoming",
-    image: "../src/assets/phase2.png",
+    image: phase2,
     desc: "Seamless integration with wearables to monitor passive health signals, enabling calm, conversational support and escalation instead of disruptive alarms.",
   },
   {
     title: "LATER — Elder care ecosystem",
     phase: "upcoming",
-    image: "../src/assets/phase3.png",
+    image: phase3,
     desc: "A unified ecosystem connecting doctors, hospitals, and home services, creating a trusted platform for comprehensive elder care.",
   },
 ];
