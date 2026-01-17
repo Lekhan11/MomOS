@@ -1,6 +1,7 @@
 import { useState } from "react";
 import EarlyAccess from "../components/earlyAccess.jsx";
 import {motion} from "framer-motion";
+import hero from "../src/assets/image.png";
 
 export default function Hero({  }) {
   const [form, setForm] = useState(false);
@@ -49,7 +50,7 @@ export default function Hero({  }) {
         {/* right */}
 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1,transition:{duration:0.5} }} className="w-full h-full flex items-center px-4 justify-center overflow-hidden">
   <img
-    src="../src/assets/image.png"
+    src={hero}
     alt="Hero Image"
     className=" object-cover rounded-2xl"
   />

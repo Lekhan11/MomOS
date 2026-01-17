@@ -1,16 +1,19 @@
 import { motion } from "framer-motion";
+import solution1 from "../src/assets/care.png";
+import solution2 from "../src/assets/routine.png";
+import solution3 from "../src/assets/remind.png";
 
 const solutions = [
   {
-    image: "../src/assets/care.png",
+    image: solution1,
     desc: "Human-like presence through continuous, natural voice conversations in local languages.",
   },
   {
-    image: "../src/assets/routine.png",
+    image: solution2,
     desc: "Memory-driven care that understands routines, preferences, and behavioral changes.",
   },
   {
-    image: "../src/assets/remind.png",
+    image: solution3,
     desc: "Action beyond conversation: reminders, music, calls, assistance, and care escalation.",
   },
 ];
